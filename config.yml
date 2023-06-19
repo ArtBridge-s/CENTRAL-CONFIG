@@ -4,3 +4,8 @@ jhipster:
       jwt:
         # secret key which should be base64 encoded and changed in production
         base64-secret: ZTMyMzVkYjI5ZjRjNGJjMjYyM2QzOWNkMjE3OGY2YWZhMjA0NjY2YmU3NGVlNGQ0NjE0MjBjMTA5NzlmOTAyOGNkZTc4N2Q5NDU4YmFlZjk5NWM3ODAwNGFmMjA3ZDk2ZGE0M2EyNzNhZTk4Y2YzZTdhMDhmMzM2YmQ4YzM4YWY=
+spring:
+  servlet:
+    multipart:
+      max-request-size: 1000MB
+      max-file-size: 1000MB
